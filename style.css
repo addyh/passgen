@@ -81,6 +81,7 @@ a.bright-link {
 	color: #888;
 	text-decoration: none;
 }
+a.bright-link:focus,
 a.bright-link:hover {
 	color: #aaa;
 	text-decoration: underline;
@@ -91,6 +92,7 @@ a.dark-link {
 	font-size: 14px;
 	font-family: sans-serif;
 }
+a.dark-link:focus,
 a.dark-link:hover {
 	text-decoration: underline;
 	color: #000;
@@ -109,6 +111,7 @@ a.dark-link:hover {
 	display: inline-block;
 	font-size: 20px;
 }
+.dark-btn:focus,
 .dark-btn:hover {
 	background-color: #000;
 }
