@@ -119,6 +119,7 @@ function getCookie(cname) {
 							charsets[setting] = '';
 						}
 					} else {
+						// Set non-charset checkmark settings
 						settings[setting] = setting_input.prop('checked');
 					}
 				} else {
